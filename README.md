@@ -1,4 +1,7 @@
 
+bens PIC macros
+=================
+
 This is a runtime if macro library. It compiles into
 real run-time evaluated nested if blocks. I use it for
 just about everything and I hope you will too.
@@ -13,8 +16,14 @@ ifbtfs or simply ifbtf but remember that:
 * 'if' doesnt skip if true
 
 
+
+Code legend
+==========
+
+
+
 | Code  | Description                           |
-|: ----- |: -----------------------------------  |
+| ----- | -----------------------------------   |
 | if 	|	if stuff							|
 | z 	|	zero								|
 | c 	|	carry bit							|
