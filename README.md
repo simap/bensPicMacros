@@ -5,7 +5,9 @@ bens PIC macros
 Working with PIC assembly can be pretty fun, but sometimes making up names for loop/condition labels and keeping track is just a pain. So I wrote this macro library that lets you write nested IF blocks, just like C or other languages. 
 
 ![](images/code.png)
+
 Turns into (the nops are actually the 2nd word of GOTOs)
+
 ![](images/disassembly.png)
 
 
