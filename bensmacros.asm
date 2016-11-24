@@ -1,7 +1,4 @@
 ;(C)2004 Ben Hencke
-;You may use this code in your personal or comercial projects  
-;so long as you leave this notice intact. Please give credit 
-;where due.
 
 ;This is a runtime if macro library. It compiles into
 ;real run-time evaluated nested if blocks. I use it for
