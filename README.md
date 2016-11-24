@@ -2,6 +2,16 @@
 bens PIC macros
 =================
 
+Working with PIC assembly can be pretty fun, but sometimes making up names for loop/condition labels and keeping track is just a pain. So I wrote this macro library that lets you write nested IF blocks, just like C or other languages. 
+
+![](images/code.png)
+Turns into (the nops are actually the 2nd word of GOTOs)
+![](images/disassembly.png)
+
+
+About
+==============
+
 This is a runtime if macro library. It compiles into
 real run-time evaluated nested if blocks. I use it for
 just about everything and I hope you will too.
@@ -16,10 +26,8 @@ ifbtfs or simply ifbtf but remember that:
 * 'if' doesnt skip if true
 
 
-
 Code legend
 ==========
-
 
 
 | Code  | Description                           |
@@ -37,3 +45,4 @@ Code legend
 | ge 	|	greater than or equal				|
 | lt 	|	less than							|
 | le 	|	less than or equal					|
+

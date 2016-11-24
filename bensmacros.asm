@@ -335,11 +335,6 @@ sub16lf macro lval, dlo,dhi
 
 ;	variable	_foobar = 0
 
-
-
-skip macro
-	btfsc PCLATH, 7	;always clear, always skip
-	endm
  
 mul4x4 macro arg2, arg1, dest
 
